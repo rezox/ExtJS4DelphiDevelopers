@@ -1,0 +1,407 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "centered": null,
+        "controller": null,
+        "defaults": null,
+        "designer|initialView": true,
+        "designer|userAlias": "login-panel",
+        "designer|userClassName": "LoginPanel",
+        "itemId": "mycontainer",
+        "padding": "",
+        "style": null,
+        "width": null
+    },
+    "configAlternates": {
+        "centered": "boolean",
+        "controller": "string",
+        "defaults": "object",
+        "designer|initialView": "boolean",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "padding": "auto",
+        "style": "string",
+        "width": "auto",
+        "itemId": "string"
+    },
+    "name": "MyContainer",
+    "designerId": "a2ff1a0c-19f2-4431-94ae-8d32a95a0910",
+    "viewControllerInstanceId": "42b0141c-42f5-41cc-92fc-0b64989ae2f9",
+    "viewModelInstanceId": "c5740dfe-2118-42cb-962e-7035e30a25c3",
+    "cn": [
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "centered": true,
+                "designer|displayName": "Container",
+                "padding": 10,
+                "style": "background-color: #FFFFFF;",
+                "width": 400
+            },
+            "configAlternates": {
+                "centered": "boolean",
+                "designer|displayName": "string",
+                "padding": "auto",
+                "style": "string",
+                "width": "auto"
+            },
+            "name": "MyContainer1",
+            "designerId": "51b8ab60-b3d8-4e16-bae5-43b1b4075d0d",
+            "cn": [
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "defaults": [
+                            "margin: 10 "
+                        ],
+                        "designer|displayName": "Container",
+                        "padding": null
+                    },
+                    "configAlternates": {
+                        "defaults": "object",
+                        "designer|displayName": "string",
+                        "padding": "auto"
+                    },
+                    "name": "MyContainer2",
+                    "designerId": "59bfedcc-3dcd-45ca-a9bc-4bd6ee1621f7",
+                    "cn": [
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|displayName": "title",
+                                "html": "<div align=\"center\">Sign into your account</div>",
+                                "padding": "0 0 10 0",
+                                "style": "font-size: 20px"
+                            },
+                            "configAlternates": {
+                                "designer|displayName": "string",
+                                "html": "string",
+                                "padding": "auto",
+                                "style": "string"
+                            },
+                            "name": "MyLabel",
+                            "designerId": "4134e5c6-11fd-4905-a7e8-7c3a7377c466"
+                        },
+                        {
+                            "type": "Ext.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "id": "username",
+                                "label": "Username",
+                                "labelWidth": "40%",
+                                "name": "username",
+                                "required": true,
+                                "scrollable": false
+                            },
+                            "configAlternates": {
+                                "label": "string",
+                                "labelWidth": "auto",
+                                "name": "string",
+                                "required": "boolean",
+                                "scrollable": "auto",
+                                "id": "string"
+                            },
+                            "name": "MyTextField2",
+                            "designerId": "c38e598f-c944-4a92-bc5b-9bc9be50a533"
+                        },
+                        {
+                            "type": "Ext.field.Password",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "id": "password",
+                                "label": "Password",
+                                "labelWidth": "40%",
+                                "name": "password",
+                                "required": true,
+                                "scrollable": false
+                            },
+                            "configAlternates": {
+                                "label": "string",
+                                "labelWidth": "auto",
+                                "name": "string",
+                                "required": "boolean",
+                                "scrollable": "auto",
+                                "id": "string"
+                            },
+                            "name": "MyPasswordField",
+                            "designerId": "acf2706b-d6da-4ba0-bab5-ff8798c0b754"
+                        },
+                        {
+                            "type": "Ext.field.Checkbox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Remember Me",
+                                "labelWidth": "40%",
+                                "name": "rememberme",
+                                "scrollable": false
+                            },
+                            "configAlternates": {
+                                "label": "string",
+                                "labelWidth": "auto",
+                                "name": "string",
+                                "scrollable": "auto"
+                            },
+                            "name": "MyCheckbox",
+                            "designerId": "26493a5b-3c3c-4b49-a594-4bc488f2348b"
+                        },
+                        {
+                            "type": "Ext.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "center",
+                                "container|pack": "center",
+                                "designer|displayName": "button",
+                                "layout": "hbox",
+                                "padding": "15 0 0 0"
+                            },
+                            "configAlternates": {
+                                "container|align": "string",
+                                "container|pack": "string",
+                                "designer|displayName": "string",
+                                "layout": "string",
+                                "padding": "auto"
+                            },
+                            "name": "MyContainer3",
+                            "designerId": "d54fe885-35cf-462a-9f16-06c6893a1427",
+                            "cn": [
+                                {
+                                    "type": "Ext.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "cls": [
+                                            "x-button-focus",
+                                            "x-button-pressed"
+                                        ],
+                                        "text": "Sign In",
+                                        "width": 150
+                                    },
+                                    "configAlternates": {
+                                        "cls": "typedarray",
+                                        "text": "string",
+                                        "width": "auto"
+                                    },
+                                    "name": "MyButton",
+                                    "designerId": "8d2f3b0f-6baf-46bb-a050-5f0860a0788a",
+                                    "cn": [
+                                        {
+                                            "type": "viewcontrollereventbinding",
+                                            "reference": {
+                                                "name": "listeners",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "fn": "onSignIn",
+                                                "implHandler": [
+                                                    "var aform = button.up('container').up('container');",
+                                                    "var ausername = aform.query('#username')[0]._value;",
+                                                    "var apassword = aform.query('#password')[0]._value;",
+                                                    "var ajsondata = '{\"username\":\"'+ausername+'\",\"password\":\"'+apassword+'\"}';",
+                                                    "",
+                                                    "Ext.Ajax.request({",
+                                                    "            url: 'http://localhost:8080/users/login',",
+                                                    "            method: 'POST',",
+                                                    "            cors: true,",
+                                                    "            jsonData: ajsondata,",
+                                                    "            success: function (response) {",
+                                                    "                Ext.Viewport.remove(Ext.Viewport.getActiveItem(), true); ",
+                                                    "                Ext.Viewport.animateActiveItem({ xtype: \"main-panel\" }, { type: \"slide\", direction: \"up\" });",
+                                                    "            },",
+                                                    "            failure: function (response) {",
+                                                    "                Ext.Msg.alert('Error', 'Invalid Credentials');",
+                                                    "            },",
+                                                    "            scope: this",
+                                                    "        });",
+                                                    "",
+                                                    ""
+                                                ],
+                                                "name": "tap",
+                                                "scope": "me"
+                                            },
+                                            "configAlternates": {
+                                                "fn": "string",
+                                                "implHandler": "code",
+                                                "name": "string",
+                                                "scope": "string"
+                                            },
+                                            "name": "onSignIn",
+                                            "designerId": "dbd4a848-af20-4d2d-bb19-fa05f516fc1f"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "center",
+                        "container|pack": "center",
+                        "designer|displayName": "Container",
+                        "layout": "hbox",
+                        "margin": "15 0 0 0",
+                        "padding": null
+                    },
+                    "configAlternates": {
+                        "container|align": "string",
+                        "container|pack": "string",
+                        "designer|displayName": "string",
+                        "layout": "string",
+                        "margin": "auto",
+                        "padding": "auto"
+                    },
+                    "name": "MyContainer4",
+                    "designerId": "2fa96988-5e67-4343-8f37-1ae159919f10",
+                    "cn": [
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|displayName": "",
+                                "designer|uiInterfaceName": "decline",
+                                "text": "Forgot Password",
+                                "ui": "decline",
+                                "width": "50%"
+                            },
+                            "configAlternates": {
+                                "designer|displayName": "string",
+                                "designer|uiInterfaceName": "string",
+                                "text": "string",
+                                "ui": "string",
+                                "width": "auto"
+                            },
+                            "name": "MyButton1",
+                            "designerId": "96dd6d8f-dd3b-4720-987d-fbdfae34c03d",
+                            "cn": [
+                                {
+                                    "type": "viewcontrollereventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fn": "onForgotPassword",
+                                        "implHandler": [
+                                            "Ext.create('LoginApp.view.ForgotPassword', {fullscreen: true});",
+                                            ""
+                                        ],
+                                        "name": "tap",
+                                        "scope": "me"
+                                    },
+                                    "configAlternates": {
+                                        "fn": "string",
+                                        "implHandler": "code",
+                                        "name": "string",
+                                        "scope": "string"
+                                    },
+                                    "name": "onForgotPassword",
+                                    "designerId": "aac61c01-948c-465e-b87f-15502e146642"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|uiInterfaceName": "confirm",
+                                "text": "Create Account",
+                                "ui": "confirm",
+                                "width": "50%"
+                            },
+                            "configAlternates": {
+                                "designer|uiInterfaceName": "string",
+                                "text": "string",
+                                "ui": "string",
+                                "width": "auto"
+                            },
+                            "name": "MyButton2",
+                            "designerId": "40c4c8a9-b25d-4700-b6c7-6fd3fa35a34a",
+                            "cn": [
+                                {
+                                    "type": "viewcontrollereventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fn": "onCreateAccount",
+                                        "implHandler": [
+                                            "Ext.create('LoginApp.view.CreateAccount', {fullscreen: true});",
+                                            ""
+                                        ],
+                                        "name": "tap",
+                                        "scope": "me"
+                                    },
+                                    "configAlternates": {
+                                        "fn": "string",
+                                        "implHandler": "code",
+                                        "name": "string",
+                                        "scope": "string"
+                                    },
+                                    "name": "onCreateAccount",
+                                    "designerId": "edac24ec-52ce-4f17-a3ee-7342c9de3a75"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,314 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "centered": true,
+        "designer|userAlias": "createaccount",
+        "designer|userClassName": "CreateAccount",
+        "modal": true,
+        "title": "Register for your account",
+        "width": 320
+    },
+    "configAlternates": {
+        "centered": "boolean",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "modal": "boolean",
+        "title": "string",
+        "width": "auto"
+    },
+    "name": "MyPanel",
+    "designerId": "fbcb79cc-5b22-4c25-ab87-9b18c47273ec",
+    "viewControllerInstanceId": "005ea439-e8e7-49a6-94c6-93cb4d2ac512",
+    "viewModelInstanceId": "1005dc96-ae9d-4ffd-b33b-5b2e833c8dd6",
+    "cn": [
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "defaults": [
+                    "{ margin: 10 }"
+                ],
+                "designer|displayName": "Container",
+                "padding": "10 5"
+            },
+            "configAlternates": {
+                "defaults": "object",
+                "designer|displayName": "string",
+                "padding": "auto"
+            },
+            "name": "MyContainer9",
+            "designerId": "10430843-d940-42bd-a432-80d247305746",
+            "cn": [
+                {
+                    "type": "Ext.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "First name",
+                        "labelWidth": null,
+                        "name": "firstname",
+                        "required": true,
+                        "scrollable": false
+                    },
+                    "configAlternates": {
+                        "label": "string",
+                        "labelWidth": "auto",
+                        "name": "string",
+                        "required": "boolean",
+                        "scrollable": "auto"
+                    },
+                    "name": "MyTextField",
+                    "designerId": "522a238a-b100-4392-8b1c-f9b3a80195ba"
+                },
+                {
+                    "type": "Ext.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Last name",
+                        "name": "lastname"
+                    },
+                    "configAlternates": {
+                        "label": "string",
+                        "name": "string"
+                    },
+                    "name": "MyTextField1",
+                    "designerId": "080f1f40-e5d5-48e5-8c7a-22a3844bf78e"
+                },
+                {
+                    "type": "Ext.field.Email",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Email (will be your username)",
+                        "name": "email",
+                        "required": true
+                    },
+                    "configAlternates": {
+                        "label": "string",
+                        "name": "string",
+                        "required": "boolean"
+                    },
+                    "name": "MyEmailField2",
+                    "designerId": "85c88361-e3b1-4ee5-b680-359fdd47cf30"
+                },
+                {
+                    "type": "Ext.field.Password",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Password",
+                        "name": "password",
+                        "required": true
+                    },
+                    "configAlternates": {
+                        "label": "string",
+                        "name": "string",
+                        "required": "boolean"
+                    },
+                    "name": "MyPasswordField1",
+                    "designerId": "2e7f0ac0-5534-4ec8-8314-e52d1a6f2127"
+                },
+                {
+                    "type": "Ext.field.Password",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Confirm password",
+                        "name": "confpassword",
+                        "required": true
+                    },
+                    "configAlternates": {
+                        "label": "string",
+                        "name": "string",
+                        "required": "boolean"
+                    },
+                    "name": "MyPasswordField2",
+                    "designerId": "50364b7e-4273-4f2c-9231-566aea1f0d0b"
+                }
+            ]
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "center",
+                "container|pack": "center",
+                "designer|displayName": "Container",
+                "layout": "hbox"
+            },
+            "configAlternates": {
+                "container|align": "string",
+                "container|pack": "string",
+                "designer|displayName": "string",
+                "layout": "string"
+            },
+            "name": "MyContainer10",
+            "designerId": "ef4d78bd-7c2e-47a6-928f-8f817528f97b",
+            "cn": [
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|uiInterfaceName": "decline",
+                        "text": "Cancel",
+                        "ui": "decline",
+                        "width": "50%"
+                    },
+                    "configAlternates": {
+                        "designer|uiInterfaceName": "string",
+                        "text": "string",
+                        "ui": "string",
+                        "width": "auto"
+                    },
+                    "name": "MyButton5",
+                    "designerId": "431a4391-5dc3-46ec-b49c-2a0b29573bfc",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|params": [
+                                    "button",
+                                    "e"
+                                ],
+                                "fn": "handler",
+                                "implHandler": [
+                                    "this.up('panel').close();"
+                                ]
+                            },
+                            "configAlternates": {
+                                "designer|params": "typedarray",
+                                "fn": "string",
+                                "implHandler": "code"
+                            },
+                            "name": "handler",
+                            "designerId": "bdcc7057-b22c-4467-83a9-6d5cee68fabe"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|uiInterfaceName": "confirm",
+                        "text": "Register",
+                        "ui": "confirm",
+                        "width": "50%"
+                    },
+                    "configAlternates": {
+                        "designer|uiInterfaceName": "string",
+                        "text": "string",
+                        "ui": "string",
+                        "width": "auto"
+                    },
+                    "name": "MyButton6",
+                    "designerId": "cdbb6878-b518-48aa-b0a1-5232cb9154e5",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|params": [
+                                    "button",
+                                    "e"
+                                ],
+                                "fn": "handler",
+                                "implHandler": [
+                                    "this.up('panel').close();",
+                                    "                var userRegistered = Ext.create({",
+                                    "                    fullscreen: true,",
+                                    "                    xtype: 'panel',",
+                                    "                    centered: true,",
+                                    "                    height: 400,",
+                                    "                    width: 400,",
+                                    "                    padding: 10,",
+                                    "                    items: [{",
+                                    "                        style: 'font-size: 20px',",
+                                    "                        html: 'Registered Successfully'",
+                                    "                    }, {",
+                                    "                        padding: '25 0 25 0',",
+                                    "                        style: 'font-size: 14px',",
+                                    "                        html: 'Congratulations! You have successfully registered your account. Please follow the instructions sent to your email to activate your account, and proceed to login.'",
+                                    "                    }, {",
+                                    "                        xtype: 'container',",
+                                    "                        layout: {",
+                                    "                            type: 'hbox',",
+                                    "                            align: 'center',",
+                                    "                            pack: 'center'",
+                                    "                        },",
+                                    "                        items: [{",
+                                    "                            xtype: 'button',",
+                                    "                            text: 'Back to Login',",
+                                    "                            width: 200,",
+                                    "                            cls: [",
+                                    "                                'x-button-focus',",
+                                    "                                'x-button-pressed'",
+                                    "                            ],",
+                                    "                            handler: function() {",
+                                    "                                this.up('panel').close();",
+                                    "                            }",
+                                    "                        }]",
+                                    "                    }]",
+                                    "                });",
+                                    "                userRegistered.show();"
+                                ]
+                            },
+                            "configAlternates": {
+                                "designer|params": "typedarray",
+                                "fn": "string",
+                                "implHandler": "code"
+                            },
+                            "name": "handler",
+                            "designerId": "cc4826cd-0516-4f8f-9d98-f5dcdee86b85"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

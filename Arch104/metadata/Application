@@ -1,0 +1,28 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "Employee"
+        ],
+        "name": "Arch104",
+        "stores": [
+            "DataGridStore"
+        ],
+        "views": [
+            "BigDataGrid"
+        ]
+    },
+    "configAlternates": {
+        "name": "string",
+        "views": "typedarray",
+        "models": "typedarray",
+        "stores": "typedarray"
+    },
+    "name": "Application",
+    "designerId": "application"
+}

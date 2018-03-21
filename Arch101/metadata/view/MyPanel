@@ -1,0 +1,83 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userAlias": "mypanel",
+        "designer|userClassName": "MyPanel",
+        "title": "RAD Server #1"
+    },
+    "configAlternates": {
+        "designer|initialView": "boolean",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "title": "string"
+    },
+    "name": "MyPanel",
+    "designerId": "b0c9bb85-76cf-4567-8943-1f8e69366207",
+    "viewControllerInstanceId": "804ef06b-c4b4-4ef7-8afc-bf9debf66e74",
+    "viewModelInstanceId": "05190765-b5e6-49f2-8ed4-df13614b9aa8",
+    "cn": [
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "centered": true,
+                "designer|uiInterfaceName": "confirm",
+                "text": "Version",
+                "ui": "confirm",
+                "width": 200
+            },
+            "configAlternates": {
+                "centered": "boolean",
+                "text": "string",
+                "designer|uiInterfaceName": "string",
+                "ui": "string",
+                "width": "auto"
+            },
+            "name": "MyButton",
+            "designerId": "6623516d-f399-4337-8b95-e65a3ae5896d",
+            "cn": [
+                {
+                    "type": "viewcontrollereventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onButtonTap",
+                        "implHandler": [
+                            "       Ext.Ajax.request({",
+                            "           url: 'http://localhost:8080/version',",
+                            "           cors: true,",
+                            "           success: function(response, opts) {",
+                            "               var obj = Ext.decode(response.responseText);",
+                            "               button.setText (obj.server.concat(\" \", obj.version));",
+                            "           },",
+                            "       });"
+                        ],
+                        "name": "tap",
+                        "scope": "me"
+                    },
+                    "configAlternates": {
+                        "fn": "string",
+                        "implHandler": "code",
+                        "name": "string",
+                        "scope": "string"
+                    },
+                    "name": "onButtonTap",
+                    "designerId": "1217e016-cae7-49f5-88a3-1724e5fd9c5a"
+                }
+            ]
+        }
+    ]
+}

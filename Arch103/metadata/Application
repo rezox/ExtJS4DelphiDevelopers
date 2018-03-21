@@ -1,0 +1,24 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "CountryModel"
+        ],
+        "name": "Arch103",
+        "views": [
+            "CountryModels"
+        ]
+    },
+    "configAlternates": {
+        "models": "typedarray",
+        "name": "string",
+        "views": "typedarray"
+    },
+    "name": "Application",
+    "designerId": "application"
+}

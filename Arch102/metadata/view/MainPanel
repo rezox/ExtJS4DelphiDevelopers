@@ -1,0 +1,176 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "main-panel",
+        "designer|userClassName": "MainPanel",
+        "html": null,
+        "scrollable": true,
+        "title": null
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "html": "string",
+        "scrollable": "auto",
+        "title": "string"
+    },
+    "name": "MyPanel",
+    "designerId": "8aaae907-6686-4908-a9cc-d7b2322c7492",
+    "viewControllerInstanceId": "c3dd1f25-e738-44d7-9f6e-90326fac9042",
+    "viewModelInstanceId": "67e58682-4b8a-4b0a-89cc-e4e4602492ff",
+    "cn": [
+        {
+            "type": "Ext.Toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "Toolbar",
+                "docked": "top"
+            },
+            "configAlternates": {
+                "designer|displayName": "string",
+                "docked": "string"
+            },
+            "name": "MyToolbar",
+            "designerId": "35234ed8-3080-4871-be80-b58d7a6a4386",
+            "cn": [
+                {
+                    "type": "Ext.Spacer",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|displayName": "Spacer"
+                    },
+                    "configAlternates": {
+                        "designer|displayName": "string"
+                    },
+                    "name": "MySpacer",
+                    "designerId": "c9d9975f-e9a0-4cea-9d98-930f586ce56c"
+                },
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|uiInterfaceName": "action",
+                        "text": "Sign Out",
+                        "ui": "action",
+                        "width": 100
+                    },
+                    "configAlternates": {
+                        "designer|uiInterfaceName": "string",
+                        "text": "string",
+                        "ui": "string",
+                        "width": "auto"
+                    },
+                    "name": "MyButton3",
+                    "designerId": "f55ca746-9fef-4166-a182-d08101027623",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|params": [
+                                    "button",
+                                    "e"
+                                ],
+                                "fn": "handler",
+                                "implHandler": [
+                                    "Ext.Viewport.remove(Ext.Viewport.getActiveItem(), true);",
+                                    "Ext.Viewport.animateActiveItem({ xtype: \"login-panel\" }, { type: \"slide\", direction: \"up\" });"
+                                ]
+                            },
+                            "configAlternates": {
+                                "designer|params": "typedarray",
+                                "fn": "string",
+                                "implHandler": "code"
+                            },
+                            "name": "handler",
+                            "designerId": "31ee00dd-d88c-40da-9be4-28589734b847"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "Container",
+                "padding": 10
+            },
+            "configAlternates": {
+                "designer|displayName": "string",
+                "padding": "auto"
+            },
+            "name": "MyContainer",
+            "designerId": "5c7f5f21-a78f-4fe1-acce-4874467e30ed",
+            "cn": [
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|displayName": "Title",
+                        "html": "Welcome Sencha Developer!",
+                        "style": "font-size: 20px"
+                    },
+                    "configAlternates": {
+                        "designer|displayName": "string",
+                        "html": "string",
+                        "style": "string"
+                    },
+                    "name": "MyContainer5",
+                    "designerId": "d69db1e3-c727-4d1b-ade0-55c6324e803f"
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|displayName": "Text",
+                        "html": "More than 10,000 customers and 60% of the Fortune 100 rely on Sencha solutions to deliver innovative applications that drive their businesses. With a longstanding commitment to web technologies, Sencha dramatically reduces the cost and complexity of developing and delivering enterprise applications across multiple device types.<br/><br/><h2>Create feature-rich HTML5 applications using JavaScript</h2><br/>Sencha Ext JS is the most comprehensive MVC/MVVM JavaScript framework for building feature-rich, cross-platform web applications targeting desktops, tablets, and smartphones. Ext JS leverages HTML5 features on modern browsers while maintaining compatibility and functionality for legacy browsers.<br/><br/>Ext JS features hundreds of high-performance UI widgets that are meticulously designed to fit the needs of the simplest as well as the most complex web applications. Ext JS templates and layout manager give you full control over your display irrespective of devices and screen sizes. An advanced charting package allows you to visualize large quantities of data. The framework includes a robust data package that can consume data from any backend data source. Ext JS also offers several out-of-the-box themes, and complete theming support that lets you build applications that reflect your brand. It also includes an accessibility package (ARIA) to help with Section 508 compliance.",
+                        "padding": "25 0 0 0",
+                        "style": "font-size: 14px"
+                    },
+                    "configAlternates": {
+                        "designer|displayName": "string",
+                        "html": "string",
+                        "padding": "auto",
+                        "style": "string"
+                    },
+                    "name": "MyContainer6",
+                    "designerId": "51215207-6907-4e51-9bd9-36667922f5e4"
+                }
+            ]
+        }
+    ]
+}

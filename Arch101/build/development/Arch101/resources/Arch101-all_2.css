@@ -1,0 +1,311 @@
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/Button.scss:1338 */
+.x-tab.x-arrow-align-right .x-arrow-el {
+    margin-left: 5px;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/Button.scss:1342 */
+.x-big .x-tab.x-arrow-align-right .x-arrow-el {
+    margin-left: 8px;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/Button.scss:1358 */
+.x-tab .x-text-el {
+    min-height: 16px;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/Button.scss:1364 */
+.x-big .x-tab .x-text-el {
+    min-height: 22px;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/Button.scss:1371 */
+.x-tab .x-badge-el {
+    color: #f0f0f0;
+    border-color: #661a00;
+    border-radius: 0;
+    top: 0;
+    right: 0;
+    padding: 1px 4px;
+    max-width: 95%;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: 'Open Sans', 'Helvetica Neue', helvetica, arial, sans-serif;
+    background-image: -webkit-linear-gradient(top, #e63900, #b32d00 3%, #802000);
+    background-image: -moz-linear-gradient(top, #e63900, #b32d00 3%, #802000);
+    background-image: -o-linear-gradient(top, #e63900, #b32d00 3%, #802000);
+    background-image: -ms-linear-gradient(top, #e63900, #b32d00 3%, #802000);
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/Button.scss:1385 */
+.x-big .x-tab .x-badge-el {
+    font-size: 13px;
+    line-height: 16px;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/Button.scss:1394 */
+.x-tab.x-hovered {
+    color: #f0f0f0;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/Button.scss:1398 */
+.x-tab.x-hovered .x-inner-el {
+    background-color: rgba(0, 0, 0, 0.08);
+    background-image: none;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/Button.scss:1403 */
+.x-tab.x-hovered .x-icon-el {
+    color: #f0f0f0;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/Button.scss:1407 */
+.x-tab.x-hovered .x-arrow-el {
+    color: #f0f0f0;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/Button.scss:1422 */
+.x-tab.x-pressing,
+.x-tab.x-pressed {
+    color: #f0f0f0;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/Button.scss:1425 */
+.x-tab.x-pressing .x-inner-el,
+.x-tab.x-pressed .x-inner-el {
+    background-color: rgba(0, 0, 0, 0.08);
+    background-image: none;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/Button.scss:1430 */
+.x-tab.x-pressing .x-icon-el,
+.x-tab.x-pressed .x-icon-el {
+    color: #f0f0f0;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/Button.scss:1434 */
+.x-tab.x-pressing .x-arrow-el,
+.x-tab.x-pressed .x-arrow-el {
+    color: #f0f0f0;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/Button.scss:1440 */
+.x-keyboard-mode .x-tab.x-focused {
+    color: #f0f0f0;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/Button.scss:1449 */
+.x-keyboard-mode .x-tab.x-focused .x-icon-el {
+    color: #f0f0f0;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/Button.scss:1453 */
+.x-keyboard-mode .x-tab.x-focused .x-arrow-el {
+    color: #f0f0f0;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/Button.scss:1458 */
+.x-keyboard-mode .x-tab.x-focused:after {
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    border: 1px solid rgba(240, 240, 240, 0.8);
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/Button.scss:1483 */
+.x-tab.x-disabled {
+    opacity: 0.5;
+    color: #f0f0f0;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/Button.scss:1493 */
+.x-tab.x-disabled .x-icon-el {
+    color: #f0f0f0;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/Button.scss:1497 */
+.x-tab.x-disabled .x-arrow-el {
+    color: #f0f0f0;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/tab/Tab.scss:1402 */
+.x-tab .x-close-icon-el {
+    border-radius: 3px;
+    margin: 3px;
+    color: #f0f0f0;
+    width: 16px;
+    height: 16px;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-base/sass/etc/mixins/icon.scss:86 */
+.x-big .x-tab .x-close-icon-el {
+    width: 20px;
+    height: 20px;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-base/sass/etc/mixins/icon.scss:93 */
+.x-tab .x-close-icon-el:before {
+    content: "\f00d";
+    font-size: 14px;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-base/sass/etc/mixins/icon.scss:122 */
+.x-big .x-tab .x-close-icon-el:before {
+    font-size: 20px;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/tab/Tab.scss:1423 */
+.x-tab .x-close-icon-el:hover {
+    color: rgba(240, 240, 240, 0.8);
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/tab/Tab.scss:1428 */
+.x-tab .x-close-icon-el:active {
+    color: rgba(240, 240, 240, 0.6);
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/tab/Tab.scss:1434 */
+.x-tab.x-active {
+    color: #5fa2dd;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/tab/Tab.scss:1438 */
+.x-tab.x-active .x-inner-el {
+    background-color: #fff;
+    background-image: none;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/tab/Tab.scss:1443 */
+.x-tab.x-active .x-icon-el {
+    color: #5fa2dd;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/tab/Tab.scss:1447 */
+.x-tab.x-active .x-arrow-el {
+    color: #5fa2dd;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/tab/Tab.scss:1456 */
+.x-tab.x-active .x-close-icon-el {
+    color: #919191;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/tab/Tab.scss:1460 */
+.x-tab.x-active .x-close-icon-el:hover {
+    color: rgba(145, 145, 145, 0.8);
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/tab/Tab.scss:1465 */
+.x-tab.x-active .x-close-icon-el:active {
+    color: rgba(145, 145, 145, 0.6);
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/tab/Tab.scss:1472 */
+.x-tab.x-active.x-focused {
+    color: #5fa2dd;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/tab/Tab.scss:1481 */
+.x-tab.x-active.x-focused .x-icon-el {
+    color: #5fa2dd;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/tab/Tab.scss:1485 */
+.x-tab.x-active.x-focused .x-arrow-el {
+    color: #5fa2dd;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/tab/Tab.scss:1490 */
+.x-keyboard-mode .x-tab.x-active.x-focused:after {
+    border-color: #7fb5e4;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/tab/Tab.scss:1509 */
+.x-tab.x-closable .x-body-el {
+    margin-right: 15px;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/tab/Tab.scss:1513 */
+.x-big .x-tab.x-closable .x-body-el {
+    margin-right: 20px;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/Toolbar.scss:330 */
+.x-tabbar {
+    background-color: #5fa2dd;
+    background-image: none;
+    border-color: #5fa2dd;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/Toolbar.scss:344 */
+.x-tabbar .x-title {
+    color: #f0f0f0;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/Toolbar.scss:362 */
+.x-tabbar-body-el {
+    padding: 8px 8px 0;
+    min-height: 0;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/Toolbar.scss:367 */
+.x-big .x-tabbar-body-el {
+    padding: 12px 12px 0;
+    min-height: 0;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/Toolbar.scss:374 */
+.x-tabbar-body-el.x-horizontal > .x-component {
+    margin-right: 4px;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/Toolbar.scss:378 */
+.x-big .x-tabbar-body-el.x-horizontal > .x-component {
+    margin-right: 4px;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/Toolbar.scss:383 */
+.x-tabbar-body-el.x-horizontal > .x-component:last-child {
+    margin-right: 0;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/tab/Bar.scss:335 */
+.x-strip-el {
+    background-color: #fff;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/grid/cell/Tree.scss:433 */
+.x-treecell {
+    padding: 0 10px;
+    background-position: 21px 0%;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/grid/cell/Tree.scss:437 */
+.x-big .x-treecell {
+    padding: 0 15px;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/grid/cell/Tree.scss:442 */
+.x-treecell .x-expander-el {
+    color: #919191;
+    width: 16px;
+    height: 16px;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-base/sass/etc/mixins/icon.scss:86 */
+.x-big .x-treecell .x-expander-el {
+    width: 18px;
+    height: 18px;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-base/sass/etc/mixins/icon.scss:93 */
+.x-treecell .x-expander-el:before {
+    content: "\f0da";
+    font-size: 16px;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-base/sass/etc/mixins/icon.scss:122 */
+.x-big .x-treecell .x-expander-el:before {
+    font-size: 18px;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-base/sass/etc/mixins/icon.scss:93 */
+.x-treecell.x-expanded .x-expander-el:before {
+    content: "\f0d7";
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/grid/cell/Tree.scss:457 */
+.x-treecell .x-icon-el {
+    color: #919191;
+    width: 16px;
+    height: 16px;
+    margin: 0 5px;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-base/sass/etc/mixins/icon.scss:86 */
+.x-big .x-treecell .x-icon-el {
+    width: 18px;
+    height: 18px;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-base/sass/etc/mixins/icon.scss:93 */
+.x-treecell .x-icon-el:before {
+    font-size: 16px;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-base/sass/etc/mixins/icon.scss:122 */
+.x-big .x-treecell .x-icon-el:before {
+    font-size: 18px;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/grid/cell/Tree.scss:469 */
+.x-big .x-treecell .x-icon-el {
+    margin: 0 8px;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-base/sass/etc/mixins/icon.scss:93 */
+.x-treecell.x-no-icon .x-icon-el:before {
+    content: "\f07b";
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-base/sass/etc/mixins/icon.scss:93 */
+.x-treecell.x-no-icon.x-expanded .x-icon-el:before {
+    content: "\f07c";
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-base/sass/etc/mixins/icon.scss:93 */
+.x-treecell.x-no-icon.x-leaf .x-icon-el:before {
+    content: "\f15b";
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/grid/cell/Tree.scss:495 */
+.x-big .x-treecell {
+    background-position: 26px 0%;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/grid/cell/Tree.scss:501 */
+.x-treecell-body-el,
+.x-treecell-tool-dock > .x-body-el {
+    padding: 8px 0 7px;
+}
+/* C:/EVENTS/ExtJS4Delphi/Arch101/ext/modern/theme-neptune/sass/var/grid/cell/Tree.scss:506 */
+.x-big .x-treecell-body-el,
+.x-big .x-treecell-tool-dock > .x-body-el {
+    padding: 12px 0;
+}

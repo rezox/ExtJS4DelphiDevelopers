@@ -1,0 +1,56 @@
+{
+    "name": "Arch104",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "6.5.3.6",
+            "frameworkVersion": "6.5.3.57"
+        },
+        "urlPrefixTemplate": "http://localhost:{port}/{path}",
+        "urlPrefix": "http://localhost:51265/",
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Desktop (Auto Expand)",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            },
+            "viewportOrientation": "portrait"
+        },
+        "exportPath": "",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true,
+        "installStatus": "Not Installed"
+    },
+    "xdsVersion": "4.2.3",
+    "xdsBuild": 371,
+    "schemaVersion": 1,
+    "upgradeVersion": 310000000001,
+    "framework": "modern65",
+    "viewOrderMap": {
+        "view": [
+            "711a3ce9-abaa-4cbb-9646-76fed4390841",
+            "b6a26256-cfc0-494f-b75f-555a77063f77"
+        ],
+        "store": [
+            "acdbf007-8865-483b-8bbf-c6289f78a674"
+        ],
+        "controller": [],
+        "model": [
+            "bafdaacf-4e4d-40d2-a487-3ed58e1ec143"
+        ],
+        "resource": [
+            "74d6bb0a-c6fc-4c0c-a401-5b2e99716f11",
+            "8ebd11e4-a93d-433b-b24b-253618e0e403",
+            "9b027d59-c38b-46a5-a127-18a320b76421"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

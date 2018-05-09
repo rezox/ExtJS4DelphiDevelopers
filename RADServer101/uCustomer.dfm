@@ -5,6 +5,7 @@ object CustomerResource: TCustomerResource
   object EmployeeConnection: TFDConnection
     Params.Strings = (
       'ConnectionDef=EMPLOYEE')
+    Connected = True
     LoginPrompt = False
     Left = 64
     Top = 24

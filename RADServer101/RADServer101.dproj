@@ -2,7 +2,7 @@
     <PropertyGroup>
         <ProjectGuid>{8084572F-38F5-424B-BC43-51FE2EB1AC03}</ProjectGuid>
         <MainSource>RADServer101.dpk</MainSource>
-        <ProjectVersion>18.3</ProjectVersion>
+        <ProjectVersion>18.4</ProjectVersion>
         <FrameworkType>VCL</FrameworkType>
         <Base>True</Base>
         <Config Condition="'$(Config)'==''">Release</Config>

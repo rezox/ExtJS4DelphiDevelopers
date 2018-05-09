@@ -59,7 +59,7 @@ implementation
 procedure TCustomerResource.Get(const AContext: TEndpointContext;
   const ARequest: TEndpointRequest; const AResponse: TEndpointResponse);
 begin
-  CustomerTable.SQL.Text := 'SELECT * FROM CUSTOMER';
+  CustomerTable.SQL.Text := 'SELECT * FROM CUSTOMER ORDER BY CUST_NO';
   AResponse.Body.SetStream(CustomerTable.AsJSONStream,
     'application/json', True);
 end;

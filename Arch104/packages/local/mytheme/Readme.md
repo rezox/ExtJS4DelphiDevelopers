@@ -1,2 +1,0 @@
-# mytheme - Read Me
-

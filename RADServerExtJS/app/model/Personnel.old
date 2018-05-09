@@ -1,7 +1,0 @@
-Ext.define('rsextjs.model.Personnel', {
-    extend: 'rsextjs.model.Base',
-
-    fields: [
-        'name', 'email', 'phone'
-    ]
-});
